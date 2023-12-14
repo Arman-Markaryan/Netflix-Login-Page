@@ -5,276 +5,294 @@
 }
 
 .picture-page{
-opacity: 75%;
+  opacity: 75%;
 }
 
 .netflix-logo{
-position: absolute;
-fill: red;
-top: -5px;
-left: 50px;
-width: 175px;
-height: 100px;
+  position: absolute;
+  fill: red;
+  top: -5px;
+  left: 50px;
+  width: 175px;
+  height: 100px;
 }
 
 .container{
-width: 435px;
-height: 650px;
-position: absolute;
-border-radius: 5px;
-top: 9%;
-right: 40.5%;
-background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+  width: 435px;
+  height: 650px;
+  position: absolute;
+  border-radius: 5px;
+  top: 9%;
+  right: 40.5%;
+  background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
 }
 
 .text1{
-position: absolute;
-top: 15%;
-left: 40%;
-font-size: 30px;
-color: white;
-}
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  font-size: 30px;
+  color: white;
+  }
+
 
 .container1{
-width: 280px;
-height: 52px;
-background: linear-gradient(to top, rgba(51,51,51,100)50%,rgba(51,51,51,100)50%);
-position: absolute;
-top: 23%;
-left: 40%;
-border-radius: 5px;
+  font-size: 15.5px;
+  padding: 0 20px;
+  color: #8c8c8c;
+  border-style: hidden;
+  width: 280px;
+  height: 52px;
+  background: linear-gradient(to top, rgba(51,51,51,100)50%,rgba(51,51,51,100)50%);
+  position: absolute;
+  top: 23%;
+  left: 40%;
+  border-radius: 5px;
 }
 
 .container2{
-width: 280px;
-height: 52px;
-background: linear-gradient(to top, rgba(51,51,51,100)50%,rgba(51,51,51,100)50%);
-position: absolute;
-top: 30%;
-left: 40%;
-border-radius: 5px;
+  font-size: 15.5px;
+  padding: 0 20px;
+  color: #8c8c8c;
+  border-style: hidden;
+  width: 280px;
+  height: 52px;
+  background: linear-gradient(to top, rgba(51,51,51,100)50%,rgba(51,51,51,100)50%);
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  border-radius: 5px;
 }
 
 .text2{
-position: absolute;
-top: 24.7%;
-left: 41%;
-font-size: 15px;
-color: #8c8c8c;
+  position: absolute;
+  top: 24.8%;
+  left: 41%;
+  font-size: 15px;
+  color: #8c8c8c;
 }
 
 .text3{
-position: absolute;
-top: 31.7%;
-left: 41%;
-font-size: 15px;
-color: #8c8c8c;
+  position: absolute;
+  top: 31.7%;
+  left: 41%;
+  font-size: 15px;
+  color: #8c8c8c;
 }
 
 .container3{
-width: 280px;
-height: 48px;
-background: linear-gradient(to top, rgba(229,9,20,100)50%,rgba(229,9,20,100)50%);
-position: absolute;
-top: 40%;
-left: 40%;
-border-radius: 5px;
+  cursor: pointer;
+  width: 280px;
+  height: 48px;
+  background: linear-gradient(to top, rgba(229,9,20,100)50%,rgba(229,9,20,100)50%);
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  border-radius: 5px;
 }
 
 .text4{
-position: absolute;
-top: 41.5%;
-left: 46.2%;
-font-size: 15px;
-color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 41.5%;
+  left: 46.2%;
+  font-size: 15px;
+  color: white;
 }
 
 .checkmark-box{
-width: 15px;
-height: 15px;
-background: linear-gradient(to top, rgba(115,115,115,100)50%,rgba(115,115,115,100)50%);
-border-radius: 1px;
-position: absolute;
-top: 46%;
-left: 40%;
+  width: 15px;
+  height: 15px;
+  background: linear-gradient(to top, rgba(115,115,115,100)50%,rgba(115,115,115,100)50%);
+  border-radius: 1px;
+  position: absolute;
+  top: 46%;
+  left: 40%;
 }
 
 .text5{
-position: absolute;
-top: 46%;
-left: 41%;
-font-size: 13px;
-color: #b3b3b3;
+  position: absolute;
+  top: 45.9%;
+  left: 41%;
+  font-size: 13px;
+  color: #b3b3b3;
 }
 
 .checkmark {
-content: "\2713";
-color: black;
-position: absolute;
-top: 45.7%;
-left: 40.1%;
-font-size: 16px;
-font-weight: bold;
+  content: "\2713";
+  color: black;
+  position: absolute;
+  top: 45.7%;
+  left: 40.1%;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .text6{
-position: absolute;
-top: 46%;
-left: 51.8%;
-font-size: 13px;
-color: #b3b3b3;
+  position: absolute;
+  top: 46%;
+  left: 51.8%;
+  font-size: 13px;
+  color: #b3b3b3;
+}
+
+.text6:hover{
+  border-bottom: 1px solid #8c8c8c;
+
+
 }
 
 .text7{
-position: absolute;
-top: 58%;
-left: 40%;
-font-size: 16px;
-color: #b3b3b3;
+  position: absolute;
+  top: 58%;
+  left: 40%;
+  font-size: 16px;
+  color: #b3b3b3;
 }
 
 .text8{
-position: absolute;
-top: 58%;
-left: 45.8%;
-font-size: 16px;
-color: white;
+  position: absolute;
+  top: 58%;
+  left: 45.8%;
+  font-size: 16px;
+  color: white;
+}
+
+.text8:hover{
+  border-bottom: 1px solid white;
 }
 
 .dot{
-color: #b3b3b3;
+  color: #b3b3b3;
 }
 
 .text9{
-position: absolute;
-top: 62%;
-left: 40%;
-font-size: 13px;
-color: #b3b3b3;
-width: 17%;
+  position: absolute;
+  top: 62%;
+  left: 40%;
+  font-size: 13px;
+  color: #b3b3b3;
+  width: 17%;
 }
 
 .learn-more{
-color: #0071eb;
+  color: #0071eb;
+}
+
+.learn-more:hover{
+  border-bottom: 1px solid #0071eb;
 }
 
 .container4{
-width: 100%;
-height: 325px;
-position: absolute;
-border-radius: 5px;
-top: 81%;
-background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+  width: 100%;
+  height: 325px;
+  position: absolute;
+  border-radius: 5px;
+  top: 81%;
+  background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
 }
 
 .text10{
-position: absolute;
-top: 85%;
-left: 22.5%;
-font-size: 16px;
-color: #737373;
-width: 17%;
+  position: absolute;
+  top: 85%;
+  left: 22.5%;
+  font-size: 16px;
+  color: #737373;
 }
 
 .text11{
-position: absolute;
-top: 90%;
-left: 22.5%;
-font-size: 14px;
-color: #737373;
-width: 17%;
+  position: absolute;
+  top: 90%;
+  left: 22.5%;
+  font-size: 14px;
+  color: #737373;
 }
 
 .text12{
-position: absolute;
-top: 93%;
-left: 22.5%;
-font-size: 14px;
-color: #737373;
-width: 17%;
+  position: absolute;
+  top: 93%;
+  left: 22.5%;
+  font-size: 14px;
+  color: #737373;
 }
 
 .text13{
-position: absolute;
-top: 90%;
-left: 36%;
-font-size: 14px;
-color: #737373;
-width: 17%;
+  position: absolute;
+  top: 90%;
+  left: 36%;
+  font-size: 14px;
+  color: #737373;
 }
 
 .text14{
-position: absolute;
-top: 93%;
-left: 36%;
-font-size: 14px;
-color: #737373;
-width: 17%;
+  position: absolute;
+  top: 93%;
+  left: 36%;
+  font-size: 14px;
+  color: #737373;
 }
 
 .text15{
-position: absolute;
-top: 90%;
-left: 50%;
-font-size: 14px;
-color: #737373;
-width: 17%;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  font-size: 14px;
+  color: #737373;
 }
 
 .text16{
-position: absolute;
-top: 90%;
-left: 64%;
-font-size: 14px;
-color: #737373;
-width: 17%;
+  position: absolute;
+  top: 90%;
+  left: 64%;
+  font-size: 14px;
+  color: #737373;
 }
 
 .text17{
-position: absolute;
-top: 93%;
-left: 50%;
-font-size: 14px;
-color: #737373;
-width: 17%;
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  font-size: 14px;
+  color: #737373;
 }
 
 .text18{
-position: absolute;
-top: 93%;
-left: 64%;
-font-size: 14px;
-color: #737373;
-width: 13%;
+  position: absolute;
+  top: 93%;
+  left: 64%;
+  font-size: 14px;
+  color: #737373;
 }
 
 .text19{
-position: absolute;
-top: 99%;
-left: 22.5%;
-font-size: 14px;
-color: #737373;
-width: 17%;
+  position: absolute;
+  top: 99%;
+  left: 22.5%;
+  font-size: 14px;
+  color: #737373;
 }
 
 .container5{
-position: absolute;
-top: 103%;
-left: 22.5%;
-width: 110px;
-height: 45px;
-background: black;
-border-style: solid;
-border-width: 0.5px;
-border-color: darkgrey;
-border-radius: 1px;
+  position: absolute;
+  top: 103%;
+  left: 22.5%;
+  width: 110px;
+  height: 45px;
+  background: black;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: darkgrey;
+  border-radius: 1px;
 }
 
 .text20{
-position: absolute;
-top: 104.3%;
-left: 24.5%;
-font-size: 14px;
-color: #737373;
-width: 17%;
+  position: absolute;
+  top: 104.3%;
+  left: 24.5%;
+  font-size: 14px;
+  color: #737373;
+}
+
+.text10:hover, .text11:hover, .text12:hover, .text13:hover, .text14:hover, .text15:hover, .text16:hover, .text17:hover, .text18:hover, .text19:hover{
+  border-bottom: 1px solid #737373;
 }
