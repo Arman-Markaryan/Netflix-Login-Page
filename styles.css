@@ -6,13 +6,20 @@
 
 .picture-page{
   opacity: 75%;
+  position: absolute;
+  
+}
+
+body{
+  overflow-y: scroll;
+  overflow-x: hidden ;
 }
 
 .netflix-logo{
   position: absolute;
   fill: red;
-  top: -5px;
-  left: 50px;
+  top: -0.9%;
+  left: 3%;
   width: 175px;
   height: 100px;
 }
@@ -184,17 +191,17 @@
 }
 
 .container4{
-  width: 100%;
-  height: 325px;
+  width: 107.3%;
+  height: 310px;
   position: absolute;
   border-radius: 5px;
-  top: 81%;
+  top: 80.9%;
   background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
 }
 
 .text10{
   position: absolute;
-  top: 85%;
+  top: 10%;
   left: 22.5%;
   font-size: 16px;
   color: #737373;
@@ -202,7 +209,7 @@
 
 .text11{
   position: absolute;
-  top: 90%;
+  top: 27%;
   left: 22.5%;
   font-size: 14px;
   color: #737373;
@@ -210,7 +217,7 @@
 
 .text12{
   position: absolute;
-  top: 93%;
+  top: 38.5%;
   left: 22.5%;
   font-size: 14px;
   color: #737373;
@@ -218,7 +225,7 @@
 
 .text13{
   position: absolute;
-  top: 90%;
+  top: 27%;
   left: 36%;
   font-size: 14px;
   color: #737373;
@@ -226,7 +233,7 @@
 
 .text14{
   position: absolute;
-  top: 93%;
+  top: 38.5%;
   left: 36%;
   font-size: 14px;
   color: #737373;
@@ -234,7 +241,7 @@
 
 .text15{
   position: absolute;
-  top: 90%;
+  top: 27%;
   left: 50%;
   font-size: 14px;
   color: #737373;
@@ -242,7 +249,7 @@
 
 .text16{
   position: absolute;
-  top: 90%;
+  top: 27%;
   left: 64%;
   font-size: 14px;
   color: #737373;
@@ -250,7 +257,7 @@
 
 .text17{
   position: absolute;
-  top: 93%;
+  top: 38.5%;
   left: 50%;
   font-size: 14px;
   color: #737373;
@@ -258,7 +265,8 @@
 
 .text18{
   position: absolute;
-  top: 93%;
+  top: 38.5%;
+  width: 10%;
   left: 64%;
   font-size: 14px;
   color: #737373;
@@ -266,7 +274,7 @@
 
 .text19{
   position: absolute;
-  top: 99%;
+  top: 55%;
   left: 22.5%;
   font-size: 14px;
   color: #737373;
@@ -274,7 +282,7 @@
 
 .container5{
   position: absolute;
-  top: 103%;
+  top: 73%;
   left: 22.5%;
   width: 110px;
   height: 45px;
@@ -287,7 +295,7 @@
 
 .text20{
   position: absolute;
-  top: 104.3%;
+  top: 77.5%;
   left: 24.5%;
   font-size: 14px;
   color: #737373;
@@ -295,4 +303,10 @@
 
 .text10:hover, .text11:hover, .text12:hover, .text13:hover, .text14:hover, .text15:hover, .text16:hover, .text17:hover, .text18:hover, .text19:hover{
   border-bottom: 1px solid #737373;
+}
+
+a, a:visited {
+  text-decoration: none; /* Remove default underline for both normal and visited links */
+  border-bottom: none; /* Remove default border-bottom for both normal and visited links */
+  color: #737373 ; /* Set the default color for both normal and visited links */
 }
